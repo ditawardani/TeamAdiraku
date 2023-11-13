@@ -17,29 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'open browser'
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC_LOGIN/login'), [('username') : 'Admin', ('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
 
-'menuju url saucedemo'
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.verifyElementVisible(findTestObject('Dashboard/button_recruitment'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Dashboard/button_recruitment'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementVisible(findTestObject('Login/textbox_username'))
+WebUI.verifyElementVisible(findTestObject('Menu Recruitment/dropdown_jobTitle'))
 
-WebUI.setText(findTestObject('Login/textbox_username'), username)
+WebUI.click(findTestObject('Menu Recruitment/dropdown_jobTitle'))
 
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
-
-WebUI.setText(findTestObject('Login/textbox_password'), password)
+WebUI.click(findTestObject('Menu Recruitment/option_jobTitle', [('jobTitle') : jobTitle]))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementClickable(findTestObject('Login/button_login'))
+WebUI.verifyElementVisible(findTestObject('Menu Recruitment/dropdown_vacancy'))
 
-WebUI.click(findTestObject('Login/button_login'))
+WebUI.click(findTestObject('Menu Recruitment/dropdown_vacancy'))
+
+WebUI.click(findTestObject('Menu Recruitment/option_vacancy', [('vacancy') : vacancy]))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Menu Recruitment/button_search'))
+
+WebUI.click(findTestObject('Menu Recruitment/list_recordSeniorQALead'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Menu Recruitment/menu_vacancies'))
+
+WebUI.click(findTestObject('Menu Recruitment/menu_vacancies'))
+
+WebUI.takeScreenshot()
 
