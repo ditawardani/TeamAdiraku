@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textbox_username</name>
+   <tag></tag>
+   <elementGuidId>ba7d30a9-b4d5-40d9-8d7e-6aec92e49413</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
