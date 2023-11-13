@@ -17,11 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_LOGIN/login'), [('username') : 'Admin', ('password') : 'admin123'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login OrangeHRM/login'), [('username') : 'Admin', ('password') : 'admin123', ('failed') : 'admin1234'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Dashboard/button_recruitment'))
+WebUI.verifyElementVisible(findTestObject('Menu Recruitment/button_recruitment'))
 
-WebUI.click(findTestObject('Dashboard/button_recruitment'))
+WebUI.click(findTestObject('Menu Recruitment/button_recruitment'))
 
 WebUI.takeScreenshot()
 
@@ -29,13 +30,13 @@ WebUI.verifyElementVisible(findTestObject('Menu Recruitment/dropdown_jobTitle'))
 
 WebUI.click(findTestObject('Menu Recruitment/dropdown_jobTitle'))
 
-WebUI.click(findTestObject('Menu Recruitment/option_jobTitle', [('jobTitle') : jobTitle]))
+WebUI.click(findTestObject('Menu Recruitment/option_jobTitle'))
 
 WebUI.takeScreenshot()
 
 WebUI.verifyElementVisible(findTestObject('Menu Recruitment/dropdown_vacancy'))
 
-WebUI.click(findTestObject('Menu Recruitment/dropdown_vacancy'))
+WebUI.click(findTestObject('Menu Recruitment/dropdown_jobTitle'))
 
 WebUI.click(findTestObject('Menu Recruitment/option_vacancy', [('vacancy') : vacancy]))
 
