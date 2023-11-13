@@ -3,7 +3,7 @@
    <description></description>
    <name>textbox_username</name>
    <tag></tag>
-   <elementGuidId>a4d6ca2c-1302-43e8-bc65-440c6be3d945</elementGuidId>
+   <elementGuidId>ba7d30a9-b4d5-40d9-8d7e-6aec92e49413</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

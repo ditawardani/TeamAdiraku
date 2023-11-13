@@ -3,7 +3,7 @@
    <description></description>
    <name>button_login</name>
    <tag></tag>
-   <elementGuidId>117720e3-15b1-4bb1-a434-640352380f2f</elementGuidId>
+   <elementGuidId>63024ed4-f4a3-4071-a9e0-1e9fb58df89e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
