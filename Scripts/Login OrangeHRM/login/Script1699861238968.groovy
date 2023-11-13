@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/aut
 
 WebUI.maximizeWindow()
 
-WebUI.takeScreenshot(null)
+WebUI.takeScreenshot()
 
 WebUI.verifyElementVisible(findTestObject('Login/textbox_username'))
 
