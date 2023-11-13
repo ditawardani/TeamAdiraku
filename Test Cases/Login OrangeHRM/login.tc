@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9d31647-5d8a-4690-8cf8-702013abe3a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>158584ea-e65e-4c4a-b111-fcc784dfa137</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ae2840b-9d10-4b9b-96bf-35d9a3ab3e2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4334f73a-1590-4d22-ba15-d5acc76f4c61</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>158584ea-e65e-4c4a-b111-fcc784dfa137</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>8ae2840b-9d10-4b9b-96bf-35d9a3ab3e2b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin1234'</defaultValue>
+      <description></description>
+      <id>4334f73a-1590-4d22-ba15-d5acc76f4c61</id>
+      <masked>false</masked>
+      <name>failed</name>
+   </variable>
+</TestCaseEntity>
