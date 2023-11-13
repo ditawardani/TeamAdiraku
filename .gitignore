@@ -22,7 +22,7 @@ settings
 /.classpath
 .svn/
 
-TeamAdiraku.prj
+namafile.prj
 appium.log
 console.properties
 /bin/
