@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Employee PIM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d43a5925-904b-49b4-96a1-9faa5485370d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b85cf91e-3ce7-495f-bac0-82742f4fac93</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85c447d3-269d-4505-9d5f-aac19826cddc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eee4d700-0377-4189-b689-e58f7c2c82d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Puerto'</defaultValue>
+      <description></description>
+      <id>b85cf91e-3ce7-495f-bac0-82742f4fac93</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rica'</defaultValue>
+      <description></description>
+      <id>85c447d3-269d-4505-9d5f-aac19826cddc</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'13'</defaultValue>
+      <description></description>
+      <id>eee4d700-0377-4189-b689-e58f7c2c82d1</id>
+      <masked>false</masked>
+      <name>employeeID</name>
+   </variable>
+</TestCaseEntity>
